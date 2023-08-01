@@ -1,0 +1,48 @@
+.container {
+  background-image: linear-gradient(#fa7257, #fc63a7);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.title {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.display-on-off-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.button {
+  background-color: #ffffff;
+  width: 180px;
+  height: 35px;
+  color: #dd1264;
+  border-width: 0px;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+.name-container {
+  background-color: #fddddb;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.name {
+  color: #000000;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+}
